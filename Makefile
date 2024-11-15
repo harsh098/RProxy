@@ -9,6 +9,6 @@ run-containers:
 ## stop: stops all demo services
 .PHONY: stop
 stop:
- docker stop server1
- docker stop server2
- docker stop server3
+	docker stop server1
+	docker stop server2
+	docker stop server3
