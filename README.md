@@ -99,3 +99,6 @@ start rpserve-win64-amd64.exe #for arm64 change to rpserve-win64-arm64.exe
   ```
     make stop
   ```
+
+# Acknowledgement
+The boilerplate is heavily borrowed from [https://prabeshthapa.medium.com/learn-reverse-proxy-by-creating-one-yourself-using-go-87be2a29d1e](https://prabeshthapa.medium.com/learn-reverse-proxy-by-creating-one-yourself-using-go-87be2a29d1e) and can be found at [pgaijin66/tinyrp](https://github.com/pgaijin66/tinyrp).
