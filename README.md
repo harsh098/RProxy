@@ -11,7 +11,8 @@ This project is completely a fun project which aims to evolve into an all encomp
 
 I and a few enthusiasts [@HarshSharma0801](https://github.com/HarshSharma0801) are building it. Stay Tuned.
 
-Why have two separate platforms for "Container Orchestration" and a "Service Mesh" for more sophisticated Service Orchestration.This is what we intend to solve ?
+Why have two separate platforms for "Container Orchestration" and a "Service Mesh" for more sophisticated Service Orchestration ? 
+This is what we intend to solve
 
 Also while we are container first in our approach we want to build this platform to include "VM Workloads" and have special constructs for Stateful Applications like databases.
 
