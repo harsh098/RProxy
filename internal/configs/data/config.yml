@@ -1,0 +1,15 @@
+gateway:
+  host: localhost
+  listen_port: "8080"
+  scheme: http
+
+resources:
+  - name: Serv1
+    endpoint: /server1
+    upstream_url: "http://localhost:9001"
+  - name: Serv2
+    endpoint: /server2
+    upstream_url: "http://localhost:9002"
+  - name: Serv3
+    endpoint: /server3
+    upstream_url: "http://localhost:9003"
