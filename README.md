@@ -1,9 +1,9 @@
 ## The RProxy Server
----
+
 A Simple Proxy Server written in Go.
 
 ## It's part of a bigger project. Stay Tuned.
----
+
 
 This project is part of a bigger project in undertaking. We are building an "Orchestration + Service Discovery" platform that combines the best of both orchestrators like "Kubernetes" and "Hashicorp Nomad" and Service Registries like "Hashicorp Consul".
 
@@ -17,7 +17,7 @@ Also while we are container first in our approach we want to build this platform
 
 
 ## What is yet to be implemented here
----
+
 - [X] Add a rudimentary Reverse Proxy. [Boilerplate for further development. It's mostly copied code with enough understanding].
 - [ ] Add Support to run as a SystemD Unit.
 - [ ] Add Host based Routing.
@@ -27,7 +27,7 @@ Also while we are container first in our approach we want to build this platform
 - [ ] Add gRPC and Websocket.
 
 ## Running RProxy
----
+
 ### Step1: Configure
 - Create a configuration file `config.yml`.
 - Copy this file either to `$(pwd)/data/config` or to `/etc/RPServer/data`
