@@ -75,7 +75,7 @@ export OS_ARCH=amd64 #for m1 mac set to arm64 else set to amd64
 ./rpserve-$OS_NAME-$OS_ARCH
 ```  
   
-__For Windows__ [[@harsh098](github.com/harsh098) **has no intention to support it.**]  
+__For Windows__ [[@harsh098](https://github.com/harsh098) **has no intention to support it.**]  
 
 ```
 cd build
