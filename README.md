@@ -60,7 +60,7 @@ make run-server
 - Build the executable
 ```
 OS_ARCH=amd64 #change to arm64 for ARM processors
-make GOARCH=amd64  all # defaults to amd64 if not set
+make GOARCH=$OS_ARCH  all # defaults to amd64 if not set
 cd build/
 ```  
 - In the next step setup configuration as shown above. Remember if configuration is not in `/etc/RPServer/data` then it should reside in same directory as the executable.
